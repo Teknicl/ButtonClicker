@@ -1,0 +1,139 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+/* Navbar */
+.Navbar {
+    background-color: #C1C1C1;
+    width: 640px;
+    height: 70px;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-radius: 5px;
+}
+
+.searchbox {
+    width: 250px;
+    height: 30px;
+    border: solid 2px;
+    padding-left: 5px;
+}
+
+.LoginBtn {
+    background-color: #2B78E4;
+    color: white;
+    width: 80px;
+    height: 30px;
+    box-shadow: black 5px 5px;
+}
+
+/* page body */
+.main {
+    margin: 0 auto;
+    width: 700px;
+    margin-top: 10px;
+}
+.row {
+    display: flex;
+    color: black;
+}
+
+.rightCol, .leftCol {
+    flex: 1;
+}
+
+.leftCol {
+    flex: 2;
+}
+
+.entryText {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.entryTextBold {
+    font-size: larger;
+}
+.wordType, .wordTenseItalics {
+    font-style: italic;
+}
+
+.wordTense, .wordTenseItalics {
+    font-size: small;
+}
+
+.wordType, .definition {
+    font-weight: 900;
+}
+
+.textUnderline {
+    color: blue;
+    text-decoration: underline;
+}
+
+.word {
+    height: 150px;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.likesBtn {
+    background-color: #FFD966;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    box-shadow: black 5px 5px;
+}
+
+.entryBtn {
+    background-color: #93C47D;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    width: 190px;
+    height: 35px;
+    box-shadow: black 5px 5px;
+}
+
+.definition {
+    padding-left: 60px;
+}
+
+.results1, .results2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border: solid;
+    border-radius: 5px;
+    margin: 20px 20px 20px 0px;
+    padding: 10px;
+}
+
+.addEntry {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    /* align-items: center; */
+    border: solid;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    padding: 15px;
+}
